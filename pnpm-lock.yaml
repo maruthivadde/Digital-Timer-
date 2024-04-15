@@ -12,6 +12,7 @@ specifiers:
   husky: 4.3.8
   lint-staged: 10.5.4
   npm-run-all: 4.1.5
+  pnpm: 8.14.1
   prettier: 2.2.1
   react: 17.0.1
   react-dom: 17.0.1
@@ -22,6 +23,7 @@ dependencies:
   '@testing-library/react': 11.2.5_react-dom@17.0.1+react@17.0.1
   '@testing-library/user-event': 12.6.2
   chalk: 4.1.0
+  pnpm: 8.14.1
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
 
@@ -10905,6 +10907,12 @@ packages:
     transitivePeerDependencies:
       - typescript
     dev: true
+
+  /pnpm/8.14.1:
+    resolution: {integrity: sha512-hWxOzZfF0/MDVOvDc80y+zcnQpXEidstD2E6HmDwEMrfuxUDbVJfOgbewYl+QhmzxPbTvo8vYvsKNmvuaqp1Mw==}
+    engines: {node: '>=16.14'}
+    hasBin: true
+    dev: false
 
   /portfinder/1.0.32:
     resolution: {integrity: sha512-on2ZJVVDXRADWE6jnQaX0ioEylzgBpQk8r55NE4wjXW1ZxO+BgDlY6DXwj20i0V8eB4SenDQ00WEaxfiIQPcxg==}
